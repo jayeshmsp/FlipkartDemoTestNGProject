@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="smokeScenarios.SubModuleSearchView">
+        <methods>
+          <include name="checkTestCase"/>
+          <include name="SubModuleSearchViewMethod"/>
+          <include name="checkTestSuite"/>
+          <include name="afterTestLogout"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- smokeScenarios.SubModuleSearchView -->
+      <class name="smokeScenarios.AddEditSearchViewDelete">
+        <methods>
+          <include name="checkTestCase"/>
+          <include name="checkTestSuite"/>
+          <include name="closeDriver"/>
+          <include name="addEditSearchViewDeleteMethod"/>
+        </methods>
+      </class> <!-- smokeScenarios.AddEditSearchViewDelete -->
+      <class name="regressionScenarios.TC02_Store_VerifyByLoginUsingStoreCredentials">
+        <methods>
+          <include name="checkTestSuite"/>
+          <include name="closeDriver"/>
+          <include name="TC02VerifyByLoginUsingStoreCredentials"/>
+          <include name="checkTestCase"/>
+          <include name="afterTestLogout"/>
+        </methods>
+      </class> <!-- regressionScenarios.TC02_Store_VerifyByLoginUsingStoreCredentials -->
+      <class name="smokeScenarios.ModuleSearchView">
+        <methods>
+          <include name="ModuleSearchViewMethod"/>
+          <include name="checkTestSuite"/>
+          <include name="closeDriver"/>
+          <include name="checkTestCase"/>
+          <include name="afterTestLogout"/>
+        </methods>
+      </class> <!-- smokeScenarios.ModuleSearchView -->
+      <class name="smokeScenarios.NavigateToModule">
+        <methods>
+          <include name="OpenModule"/>
+          <include name="checkTestCase"/>
+          <include name="checkTestSuite"/>
+          <include name="closeDriver"/>
+          <include name="afterTestLogout"/>
+        </methods>
+      </class> <!-- smokeScenarios.NavigateToModule -->
+      <class name="smokeScenarios.GroupAddEditSearchViewDelete">
+        <methods>
+          <include name="GroupAddEditSearchViewDeleteMethod"/>
+          <include name="checkTestSuite"/>
+          <include name="checkTestCase"/>
+          <include name="closeDriver"/>
+          <include name="afterTestLogout"/>
+        </methods>
+      </class> <!-- smokeScenarios.GroupAddEditSearchViewDelete -->
+      <class name="smokeScenarios.StoreCardAddEditSearchViewDelete">
+        <methods>
+          <include name="storeCardAddEditSearchViewDeleteMethod"/>
+          <include name="afterTestLogout"/>
+          <include name="checkTestCase"/>
+          <include name="createStoreForCard"/>
+          <include name="checkTestSuite"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- smokeScenarios.StoreCardAddEditSearchViewDelete -->
+      <class name="smokeScenarios.FormSearchView">
+        <methods>
+          <include name="FormSearchViewMethod"/>
+          <include name="checkTestSuite"/>
+          <include name="closeDriver"/>
+          <include name="afterTestLogout"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- smokeScenarios.FormSearchView -->
+      <class name="smokeScenarios.RoleAddEditSearchViewDelete">
+        <methods>
+          <include name="checkTestSuite"/>
+          <include name="RoleAddEditSearchViewDeleteMethod"/>
+          <include name="closeDriver"/>
+          <include name="afterTestLogout"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- smokeScenarios.RoleAddEditSearchViewDelete -->
+      <class name="regressionScenarios.RuffWorkTestNG">
+        <methods>
+          <include name="checkTestCase"/>
+          <include name="createGeneralGroup"/>
+        </methods>
+      </class> <!-- regressionScenarios.RuffWorkTestNG -->
+      <class name="smokeScenarios.OptionsEditSearchView">
+        <methods>
+          <include name="checkTestCase"/>
+          <include name="afterTestLogout"/>
+          <include name="checkTestSuite"/>
+          <include name="closeDriver"/>
+          <include name="OptionsSearchViewMethod"/>
+        </methods>
+      </class> <!-- smokeScenarios.OptionsEditSearchView -->
+      <class name="smokeScenarios.StoreAddEditSearchViewDelete">
+        <methods>
+          <include name="checkTestSuite"/>
+          <include name="afterTestLogout"/>
+          <include name="closeDriver"/>
+          <include name="storeAddEditSearchViewDeleteMethod"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- smokeScenarios.StoreAddEditSearchViewDelete -->
+      <class name="regressionScenarios.TC01_Store_VerifyStoreUserAndRole">
+        <methods>
+          <include name="checkTestSuite"/>
+          <include name="TC01VerifyNewStoreUserAndRole"/>
+          <include name="closeDriver"/>
+          <include name="checkTestCase"/>
+          <include name="afterTestLogout"/>
+        </methods>
+      </class> <!-- regressionScenarios.TC01_Store_VerifyStoreUserAndRole -->
+      <class name="smokeScenarios.UserAddEditSearchViewDelete">
+        <methods>
+          <include name="afterTestLogout"/>
+          <include name="checkTestCase"/>
+          <include name="UserAddEditSearchViewDeleteMethod"/>
+          <include name="checkTestSuite"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- smokeScenarios.UserAddEditSearchViewDelete -->
+      <class name="smokeScenarios.RuffWorkTestNGSmoke">
+        <methods>
+          <include name="createGeneralGroup"/>
+          <include name="checkTestSuite"/>
+          <include name="checkTestCase"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- smokeScenarios.RuffWorkTestNGSmoke -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

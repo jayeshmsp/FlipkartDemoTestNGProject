@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Integration Scenarios]">
+  <test thread-count="5" name="TC01_Verify that store record getting synchronized successfully with BOS and Till.(failed)">
+    <classes>
+      <class name="integrationScenarios.TC01_VerifyStoreSync">
+        <methods>
+          <include name="afterTestLogout"/>
+          <include name="checkTestCase"/>
+          <include name="checkTestSuite"/>
+          <include name="verifyStoreSyncMethod"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- integrationScenarios.TC01_VerifyStoreSync -->
+    </classes>
+  </test> <!-- TC01_Verify that store record getting synchronized successfully with BOS and Till.(failed) -->
+  <test thread-count="5" name="TC02_Verify that store card is getting issued successfully from Till application.(failed)">
+    <classes>
+      <class name="integrationScenarios.TC02_VerifyStoreCardIssue">
+        <methods>
+          <include name="ruffWorkMethod"/>
+          <include name="checkTestSuite"/>
+          <include name="afterTestLogout"/>
+          <include name="checkTestCase"/>
+          <include name="closeDriver"/>
+          <include name="createStoreForCard"/>
+        </methods>
+      </class> <!-- integrationScenarios.TC02_VerifyStoreCardIssue -->
+    </classes>
+  </test> <!-- TC02_Verify that store card is getting issued successfully from Till application.(failed) -->
+</suite> <!-- Failed suite [Integration Scenarios] -->

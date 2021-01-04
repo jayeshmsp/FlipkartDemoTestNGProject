@@ -1,0 +1,9 @@
+<suite name="Final Release">
+<suite-files>
+<suite-file path="./SmokeScenarios.xml"></suite-file>
+<!--
+<suite-file path="./RegressionScenarios.xml"></suite-file>
+<suite-file path="./IntegrationScenarios.xml"></suite-file>
+-->
+</suite-files>
+</suite>

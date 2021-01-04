@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke Scenarios]">
+  <test thread-count="5" name="Check all the modules getting open(failed)">
+    <classes>
+      <class name="smokeScenarios.TC01_NavigateToModule">
+        <methods>
+          <include name="TC01OpenModule"/>
+          <include name="afterTestLogout"/>
+          <include name="checkTestSuite"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- smokeScenarios.TC01_NavigateToModule -->
+    </classes>
+  </test> <!-- Check all the modules getting open(failed) -->
+</suite> <!-- Failed suite [Smoke Scenarios] -->

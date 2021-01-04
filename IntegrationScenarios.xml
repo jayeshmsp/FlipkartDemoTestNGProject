@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Integration Scenarios">
+  <!--
+  <test name="FirefoxTest" >
+  <parameter name="myBrowser" value="firefox" />
+    <classes>
+       <class name="smokeScenarios.NavigateToModule">
+       </class>
+    </classes>
+  </test>
+  -->
+  <test name="TC01_test" >
+  <!--<parameter name="myBrowser" value="chrome" /> -->
+    <classes>
+	   <class name="integrationScenarios.TC01_test" />
+    </classes>
+  </test>
+  <test name="TC02_test" >
+  <!--<parameter name="myBrowser" value="chrome" /> -->
+    <classes>
+	   <class name="integrationScenarios.TC02_test" />
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Scenarios">
+  <!--
+  <test name="FirefoxTest" >
+  <parameter name="myBrowser" value="firefox" />
+    <classes>
+       <class name="smokeScenarios.NavigateToModule">
+       </class>
+    </classes>
+  </test>
+  -->
+  <test name="Check all the modules getting open" >
+  <!--<parameter name="myBrowser" value="chrome" /> -->
+    <classes>
+	   <class name="smokeScenarios.TC01_NavigateToModule" />
+    </classes>
+  </test>
+</suite>
